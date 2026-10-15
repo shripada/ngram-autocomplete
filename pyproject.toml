@@ -1,0 +1,10 @@
+[project]
+name = "ngram-autocomplete"
+version = "0.1.0"
+description = "Next-word suggestions from a word n-gram model, in Streamlit"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "streamlit>=1.66.0",
+    "streamlit-searchbox>=0.1.24",
+]
